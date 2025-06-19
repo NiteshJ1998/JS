@@ -1,5 +1,17 @@
 //variables
-//var
+// var | let | const
+
+//var ==> Global
+// Re-assign
+// Anytime we can access this var variable
+
+//let - Local
+//Re- assign
+// Acess only on block scope
+
+//const - Local
+// can't be re- assign
+// Acess only on block scope
 
 // DataType varName = value; Strongly Typed language
 //JS - loosly type language
@@ -35,3 +47,15 @@ let a = 10;
 a = "nitesh";
 
 console.log(a);
+
+//const
+// Scope --> Local
+// once the const value is defined this can't changed
+
+const age = 22;
+
+age = 30;
+
+console.log(age);
+
+// Uncaught TypeError: Assingment to constant variable
